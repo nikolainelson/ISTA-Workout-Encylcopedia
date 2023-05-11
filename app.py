@@ -3,7 +3,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Types of Workouts", page_icon=":trophy:", layout="wide")
 
-df = pd.read_csv(r'C:\Users\nikol\PycharmProjects\FinalProject\megaGym2.csv')
+df = pd.read_csv('megaGym2.csv')
 df = df.dropna(subset=['Equipment'])
 #df_filled = df['Rating'].fillna(0)
 count = 0
